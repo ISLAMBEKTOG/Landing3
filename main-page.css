@@ -1,7 +1,7 @@
 .main-page{
     margin-top: 20px;
     width: 100%;
-    height: 400px;
+    height: 500px;
     color: white;
     background-color: rgb(102, 100, 100);
 }
@@ -19,7 +19,7 @@
 }
 .main-title{
     position: absolute;
-    margin-left: 570px;
+    margin-left: 590px;
     margin-top: 50px;
 }
 .main-title button{
@@ -49,4 +49,85 @@
 }
 .main-title .read-more .fas{
     color: white;
+}
+
+/* Main-bottom */
+.main-bottom{
+    background-color: #fff;
+    height: 90px;
+    width: 615px;
+    display: inline-block;
+    border: 1px solid rgb(190, 187, 187);
+}
+.main-bottom .single-bottom{
+    text-align: center;
+    width: 200px;
+    height: 100%;
+    display: inline-block;
+    border-right: 1px solid rgb(190, 187, 187);
+}
+.main-bottom .single-bottom p{
+    text-transform: uppercase;
+    color: rgb(24, 24, 110);
+    font-size: .8rem;
+    font-weight: 600;
+}
+.main-bottom .single-bottom .fas{
+    font-family: 'FontAwesome';
+    font-size: 2rem;
+    color: rgb(24, 24, 110);
+    margin-top: 10px;
+}
+
+/* Main bottom 2 */
+.main-bottom-2{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    padding-right: 10px;
+    background-color: grey;
+    margin-left: -20px;
+}
+.main-bottom-title{
+    margin-top: 80px;
+    height: 120px;
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(190, 187, 187);
+}
+.main-bottom-title p{
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.main-bottom-title .fas{
+    font-family: 'FontAwesome';
+    font-size: 1.5rem;
+    color: rgb(24, 24, 110);
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.main-bottom-title small{
+    display: block;
+    color: rgb(200, 203, 206);
+}
+.main-bottom-title a{
+    text-decoration: none;
+    margin-left: 120px;
+    border-left: 1px solid rgb(24, 24, 110);
+    color: rgb(24, 24, 110);
+    font-weight: 600;
+    padding-left: 5px;
+    font-size: .9rem;
+}
+.container{
+    position: absolute;
+    top: 480px;
+    left: 250px;
+    width: 830px;
 }
