@@ -1,0 +1,340 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.page_blockItem {
+  width: 100%;
+  height: 450px;
+  display: inline-block;
+  color: white;
+  background-color: rgb(71, 71, 71);
+}
+.page_blockH2 {
+  display: inline-block;
+  width: 600px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: 700;  
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.page_blockTitlle {
+  display: block;
+  width: 600px;
+  font-size: 15px; 
+  font-weight: 400;  
+  margin-left: 200px;
+}
+.page_blockTitlle p{
+  line-height: 1.5;
+  display: inline-block;
+}
+.page_list .fas{
+  font-family: 'FontAwesome';
+  font-size: 1rem;
+  font-style: normal;
+  color: rgb(197, 197, 50);
+  display: inline-block;
+  padding-right: 10px;
+}
+.page_list{
+  display: block;
+  margin-left: 200px;
+  font-size: .9rem;
+}
+.page_list1 {
+  display: inline-block;
+  width: 170px;
+  margin-bottom: 30px;
+}
+.page_list2 {
+  display: inline-block;
+  width: 170px;
+}
+.page_list3 {
+  display: inline-block;
+  width: 170px;
+}
+.page_blockItem button{
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.page_blockItem .read-more{
+  background-color: rgb(24, 24, 110);
+  border: 1px solid rgb(24, 24, 110);
+  color: white;
+  margin-left: 200px;
+}
+.page_blockItem .get-quote{
+  background-color: yellow;
+  border: 1px solid yellow;
+  color: rgb(24, 24, 110);
+}
+.buttons .fas{
+  font-family: 'FontAwesome';
+  font-size: 1rem;
+  color: rgb(24, 24, 110);
+  display: inline-block;
+  transform: rotate(-90deg);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.buttons .read-more .fas{
+  color: white;
+}
+
+.container2{
+  position: absolute;
+  top: 450px;
+  left: 250px;
+  width: 830px;
+}
+.dedecated{
+  width: 100%;
+}
+.det-single{
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 60px;
+}
+.det-image{
+  width: 100%;
+  height: 150px;
+  background-color: grey;
+}
+.det-title{
+  width: 100%;
+}
+.det-title p{
+    border-left: 2px solid yellow;
+    padding-left: 10px;
+    font-weight: 700;
+}
+.det-title p span{
+  color: blue;
+}
+.det-title small{
+  padding-left: 10px;
+}
+.det-icons{
+  padding-left: 10px;
+}
+.det-icons .fas{
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: .7rem;
+  color: black;
+  padding-right: 10px;
+}
+.det-header{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+/* Benefits */
+.benefits{
+  width: 100%;
+}
+.ben-header{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: black;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ben-single{
+  width: 270px;
+  height: 100px;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.ben-left{
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(24, 24, 110);
+  background-color: rgb(24, 24, 110);
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+}
+.ben-left .fas{
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -13px;
+}
+.ben-right{
+  width: 200px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.ben-right p{
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.ben-right span{
+  color: rgb(177, 173, 173);
+  line-height: 1.4;
+}
+
+
+
+
+/* General */
+.general{
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.gen-left{
+  display: inline-block;
+  width: 50%;
+}
+.gen-header{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.gen-block{
+  width: 100%;
+}
+.gen-block-top{
+  width: 100%;
+  height: 150px;
+  background-color: grey;
+  margin-bottom: 10px;
+}
+.gen-title{
+  width: 100%;
+}
+.gen-title p{
+  padding-left: 10px;
+  border-left: 2px solid yellow;
+}
+.gen-title p span{
+  color: rgb(212, 209, 209);
+  display: inline-block;
+  margin-right: 15px;
+}
+.gen-title p span .fas{
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: .7rem;
+  color: black;
+  display: inline-block;
+  padding-right: 3px;
+}
+.gen-title small{
+  font-size: .9rem;
+  line-height: 1.4;
+  color: rgb(207, 205, 205);
+}
+.gen-left button{
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+.gen-left .read-more{
+  background-color: rgb(24, 24, 110);
+  border: 1px solid rgb(24, 24, 110);
+  color: white;
+  margin-top: 30px;
+}
+
+.gen-right{
+  vertical-align: top;
+  width: 47%;
+  display: inline-block;
+  margin-top: -20px;
+  padding-left: 20px;
+}
+.gen-right-header p{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  display: inline-block;
+  font-weight: 700;
+}
+.gen-right-header a{
+  float: right;
+  margin-top: 20px;
+  font-weight: 900;
+  color: rgb(226, 226, 73);
+  text-decoration-color: yellow;
+  display: inline-block;  
+}
+.gen-right-block{
+  width: 100%;
+}
+.gen-right-single{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.gen-right-single p{
+  font-size: .9rem;
+  font-weight: 700;
+}
+.gen-right-single p .fas{
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: .9rem;
+  color: black;
+  display: inline-block;
+  padding-right: 47px;
+}
+
+.gen-right-other{
+  display: inline-block;
+  margin-bottom: 60px;
+}
+.gen-right-other p{
+  font-size: .9rem;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+}
+.gen-right-other span{
+    color: rgb(177, 174, 174);
+    padding-left: 58px;
+}
+.div-ques{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(24, 24, 110);
+  border: 1px solid rgb(24, 24, 110);
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.div-ques .fas{
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-size: 1rem;
+  color: yellow;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 10px;
+}
