@@ -1,0 +1,52 @@
+.main-page{
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    color: white;
+    background-color: rgb(102, 100, 100);
+}
+.main-page p{
+    font-size: 2.3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.main-page small{
+    font-size: .8rem;
+    display: block;
+    margin-bottom: 30px;
+}
+.main-title{
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 50px;
+}
+.main-title button{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.main-title .read-more{
+    background-color: rgb(24, 24, 110);
+    border: 1px solid rgb(24, 24, 110);
+    color: white;
+}
+.main-title .get-quote{
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: rgb(24, 24, 110);
+}
+.main-title .fas{
+    font-family: 'FontAwesome';
+    font-size: 1rem;
+    color: rgb(24, 24, 110);
+    display: inline-block;
+    transform: rotate(-90deg);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-title .read-more .fas{
+    color: white;
+}
